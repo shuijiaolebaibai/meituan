@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>美团外卖</title>
+  <link rel="stylesheet" href="./css/index.css">
+
+</head>
+
+<body>
+  <nav>
+    <input type="text" placeholder="搜索商家、美食"><button>搜索</button>
+  </nav>
+  <span id="myCart">我的购物车(<i>0</i>)</span>
+  <ul id="foods">
+    <li>
+      <img src="./img/food1.jpg" alt="">
+      <span>A米汉堡</span>
+      <span>16元/份</span>
+      <p>月销8148单</p>
+      <span>起送￥10元</span><span>免费送费</span><span>45分钟</span>
+      <button>加入购物车</button>
+    </li>
+    <li>
+      <img src="./img/food2.jpg" alt="">
+      <span>杨记小厨</span>
+      <span>17.5元/份</span>
+      <p>月销8148单</p>
+      <span>起送￥10元</span><span>免费送费</span><span>45分钟</span>
+      <button>加入购物车</button>
+    </li>
+    <li>
+      <img src="./img/food3.jpg" alt="">
+      <span>杨铭宇黄焖鸡米饭</span>
+      <span>18元/份</span>
+      <p>月销8148单</p>
+      <span>起送￥10元</span><span>免费送费</span><span>45分钟</span>
+      <button>加入购物车</button>
+    </li>
+    <li>
+      <img src="./img/food4.jpg" alt="">
+      <span>烤肉拌饭</span>
+      <span>18元/份</span>
+      <p>月销8148单</p>
+      <span>起送￥10元</span><span>免费送费</span><span>45分钟</span>
+      <button>加入购物车</button>
+    </li>
+  </ul>
+  <div id="cart">
+    <table>
+      <tr>
+        <th>全选<input type="checkbox" id="all"></th>
+        <th>菜品</th>
+        <th>价格（元/份）</th>
+        <th>数量</th>
+        <th>操作</th>
+      </tr>
+    </table>
+    <ul class="cal">
+      <li><button id="delAll" disabled>全部删除</button></li>
+      <li><span>合计￥<i id="total">0</i></span>
+        <button id="account">结算</button></li>
+    </ul>
+    <button id="toFoodView">继续点餐</button>
+    <div class="msg"></div>
+  </div>
+  <script src="js/index.js"></script>
+</body>
+
+</html>

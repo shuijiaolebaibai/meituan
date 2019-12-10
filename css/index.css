@@ -1,0 +1,138 @@
+* {
+   margin: 0;
+    padding: 0;
+}
+i {
+    font-style: normal;
+ }
+ul ,li {
+    list-style: none;
+ }
+body {
+    background-color: #f5f5f5;
+}
+nav {
+    height: 50px;
+    padding-top: 8px;
+    background: url('../img/ceiling-logo2.png') 100px no-repeat #ffd705;
+}
+  
+nav input {
+    width: 280px;
+    height: 38px;
+    background-color: transparent;
+    border: 2px solid #6b450a;
+    border-radius: 19px 0 0 19px;
+    margin-left: 450px;
+    padding-left: 40px;
+    background: url('../img/magnifier.png') 15px 10px no-repeat;
+    outline: 0;
+}
+  
+nav button {
+    display: inline-block;
+    height: 42px;
+    width: 100px;
+    line-height: 42px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #6b450a;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    text-align: center;
+    position: relative; 
+    top: 1px;
+    outline: 0;
+}
+  
+#myCart {
+    display: block;
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    margin: 10px auto;
+    cursor: pointer;
+}
+#myCart i {
+    color: red;
+}
+  
+#foods {
+    width: 1200px;
+    height: 330px;
+    margin: 0 auto;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+  
+ #foods img {
+  width: 280px;
+  margin: 10px;
+}
+  
+#foods span {
+    margin-left: 10px;
+}
+#foods span:nth-of-type(2) {
+    float: right;
+    margin-right: 15px;
+}
+  
+#foods p {
+    text-align: right;
+    margin-right: 20px;
+    font-size: 14px;
+    color: #ffd705;
+}
+  
+#foods span:nth-of-type(n+3) {
+    color: #aaa;
+    font-size: 14px;
+}
+#foods span:nth-last-of-type(1) {
+    margin-left: 85px;
+}
+#foods button {
+    float: right;
+    margin-right: 15px;
+    cursor: pointer;
+}
+  
+  /*  购物车 */
+  
+#cart {
+    width: 1200px;
+    margin: 10px auto;
+    display: none;
+}
+table {
+    width: 1200px;
+    background-color: #fff;
+    border-collapse: collapse;
+    border-bottom: 1px solid #999;
+}
+  
+table tr:nth-child(1) {
+    background-color: blue;
+}
+  
+table tr {
+    text-align: center;
+}
+  
+#cart ul {
+    width: 1200px;
+}
+  
+#cart ul li {
+    float: left;
+}
+  
+#cart ul li:nth-last-of-type(1) {
+    float: right;
+}
+  
+.cal {
+    overflow: hidden;
+}
